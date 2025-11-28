@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NotesCreator — Create notes quickly</title>
+  <meta name="description" content="NotesCreator — small, simple notes generator / manager. Replace this text with a short description of your project." />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <svg class="logo" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="3" y="4" width="18" height="16" rx="2" fill="#2b2f76"></rect>
+          <rect x="6" y="7" width="6" height="2" rx="1" fill="#fff"></rect>
+          <rect x="6" y="11" width="12" height="2" rx="1" fill="#fff"></rect>
+          <rect x="6" y="15" width="8" height="2" rx="1" fill="#fff"></rect>
+        </svg>
+        <div>
+          <h1 class="project-title">NotesCreator</h1>
+          <p class="project-sub">Simple notes generator</p>
+        </div>
+      </div>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#features">Features</a>
+        <a href="#install">Install</a>
+        <a href="#usage">Usage</a>
+        <a class="cta" href="https://github.com/Mordorkaiser/NotesCreator" target="_blank" rel="noopener">View on GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h2>Make notes faster. Ship clarity sooner.</h2>
+          <p class="lead">NotesCreator is a lightweight tool to create and manage notes quickly. Replace this text with a short elevator pitch that describes the project's value and core use cases.</p>
+
+          <div class="actions">
+            <a class="btn primary" href="https://github.com/Mordorkaiser/NotesCreator" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="#install">Get started</a>
+          </div>
+
+          <p class="meta">
+            <img alt="GitHub stars" src="https://img.shields.io/github/stars/Mordorkaiser/NotesCreator?style=flat-square" />
+            <img alt="GitHub issues" src="https://img.shields.io/github/issues/Mordorkaiser/NotesCreator?style=flat-square" />
+            <img alt="License" src="https://img.shields.io/github/license/Mordorkaiser/NotesCreator?style=flat-square" />
+          </p>
+        </div>
+
+        <div class="hero-visual">
+          <div class="mockup">
+            <pre><code>// Example note
+Title: Meeting notes — 2025-01-01
+
+- Goal: plan Q1
+- Owner: @yourname
+- Next: follow up by 2025-01-08
+</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container features">
+      <h3>Features</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Fast</h4>
+          <p>Minimal overhead so you can focus on writing notes, not configuring the tool.</p>
+        </div>
+        <div class="card">
+          <h4>Portable</h4>
+          <p>Plain text-friendly and easy to integrate with other tools and workflows.</p>
+        </div>
+        <div class="card">
+          <h4>Extensible</h4>
+          <p>Small codebase designed so you can add exporters, templates, and integrations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="install" class="container docs">
+      <h3>Install</h3>
+      <p>Provide quick install steps here. Example:</p>
+      <pre><code># clone the repo
+git clone https://github.com/Mordorkaiser/NotesCreator.git
+cd NotesCreator
+
+# run (example)
+# Replace with actual install/run instructions for your project
+python -m pip install -r requirements.txt
+python notescreator.py
+</code></pre>
+    </section>
+
+    <section id="usage" class="container docs">
+      <h3>Usage</h3>
+      <p>Show a minimal example of running the project or a screenshot/gif. Example CLI usage:</p>
+      <pre><code># create a note
+notescreator new "Meeting notes" --date 2025-11-28
+
+# list notes
+notescreator list
+</code></pre>
+    </section>
+
+    <section class="container cta-section">
+      <div class="cta-inner">
+        <h4>Ready to try NotesCreator?</h4>
+        <a class="btn primary" href="https://github.com/Mordorkaiser/NotesCreator" target="_blank" rel="noopener">Open the repo on GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built by <strong>Mordorkaiser</strong>. Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</p>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
